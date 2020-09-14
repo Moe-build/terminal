@@ -13,7 +13,8 @@
     {
         "defaults":
         {
-            "startingDirectory": "."
+            "startingDirectory": ".",
+            "colorScheme": "Desert"
         },
         "list":
         [
@@ -24,12 +25,42 @@
                 "hidden": false
             },
             {
+                "acrylicOpacity" : 0.5,
+                "backgroundImage" : "%LOCALAPPDATA%/terminal/background/1.png",
+                "backgroundImageOpacity" : 0.2,
+                "closeOnExit" : true,
+                "colorScheme" : "Campbell",
+                "closeOnExit" : true,
+                "colorScheme" : "Campbell",
+                "cursorColor" : "#FFFFFF",
+                "cursorShape" : "bar",
+                "fontFace" : "Consolas",
+                "fontSize" : 10,
+                "historySize" : 9001,
+                "padding" : "7, 0, 0, 10",
+                "snapOnInput" : true,
+
                 "guid": "{88888888-8888-8888-8888-888888888888}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false
             },
             {
+                "acrylicOpacity" : 0.5,
+                "backgroundImage" : "%LOCALAPPDATA%/terminal/background/3.png",
+                "backgroundImageOpacity" : 0.2,
+                "closeOnExit" : true,
+                "colorScheme" : "Campbell",
+                "closeOnExit" : true,
+                "colorScheme" : "Campbell",
+                "cursorColor" : "#FFFFFF",
+                "cursorShape" : "bar",
+                "fontFace" : "Consolas",
+                "fontSize" : 10,
+                "historySize" : 9001,
+                "padding" : "7, 0, 0, 10",
+                "snapOnInput" : true,
+
                 "guid": "{77777777-7777-7777-7777-777777777777}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",

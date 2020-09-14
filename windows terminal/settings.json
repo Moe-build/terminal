@@ -67,7 +67,50 @@
         ]
     },
 
-    "schemes": [],
+    "schemes": [
+        {
+          "name": "3024 Night",
+          "black": "#090300",
+          "red": "#db2d20",
+          "green": "#01a252",
+          "yellow": "#fded02",
+          "blue": "#01a0e4",
+          "purple": "#a16a94",
+          "cyan": "#b5e4f4",
+          "white": "#a5a2a2",
+          "brightBlack": "#5c5855",
+          "brightRed": "#e8bbd0",
+          "brightGreen": "#3a3432",
+          "brightYellow": "#4a4543",
+          "brightBlue": "#807d7c",
+          "brightPurple": "#d6d5d4",
+          "brightCyan": "#cdab53",
+          "brightWhite": "#f7f7f7",
+          "background": "#090300",
+          "foreground": "#a5a2a2"
+        },
+        {
+          "name": "Desert",
+          "black": "#4d4d4d",
+          "red": "#ff2b2b",
+          "green": "#98fb98",
+          "yellow": "#f0e68c",
+          "blue": "#cd853f",
+          "purple": "#ffdead",
+          "cyan": "#ffa0a0",
+          "white": "#f5deb3",
+          "brightBlack": "#555555",
+          "brightRed": "#ff5555",
+          "brightGreen": "#55ff55",
+          "brightYellow": "#ffff55",
+          "brightBlue": "#87ceff",
+          "brightPurple": "#ff55ff",
+          "brightCyan": "#ffd700",
+          "brightWhite": "#ffffff",
+          "background": "#333333",
+          "foreground": "#ffffff"
+        }
+    ],
 
     "keybindings":
     [

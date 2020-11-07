@@ -1,6 +1,8 @@
 #! /bin/bash
 base_dir=$(cd "$(dirname "$0")";pwd)
 
+# installed zsh...
+
 echo " install oh-my-zsh"
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 

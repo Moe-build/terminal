@@ -19,14 +19,8 @@
         "list":
         [
             {
-                "guid": "{99999999-9999-9999-9999-999999999999}",
-                "name": "命令提示符",
-                "commandline": "cmd.exe",
-                "hidden": false
-            },
-            {
                 "acrylicOpacity" : 0.5,
-                "backgroundImage" : "%LOCALAPPDATA%/terminal/background/1.png",
+                "backgroundImage" : "%LOCALAPPDATA%/terminal/background.png",
                 "backgroundImageOpacity" : 0.2,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
@@ -39,6 +33,7 @@
                 "historySize" : 9001,
                 "padding" : "7, 0, 0, 10",
                 "snapOnInput" : true,
+                "icon": "%LOCALAPPDATA%/terminal/powershell.png",
 
                 "guid": "{88888888-8888-8888-8888-888888888888}",
                 "name": "Windows PowerShell",
@@ -47,7 +42,7 @@
             },
             {
                 "acrylicOpacity" : 0.5,
-                "backgroundImage" : "%LOCALAPPDATA%/terminal/background/3.png",
+                "backgroundImage" : "%LOCALAPPDATA%/terminal/background.png",
                 "backgroundImageOpacity" : 0.2,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
@@ -96,9 +91,21 @@
             {
                 "guid": "{00000000-0000-0000-0000-000000000003}",
                 "hidden": false,
-                "name": "Aliyun",
-                "icon": "%LOCALAPPDATA%/terminal/aliyun.ico",
-                "commandline": "powershell.exe ssh root@ali.dounait.cn"
+                "name": "hk.dounait",
+                "icon": "%LOCALAPPDATA%/terminal/hk.png",
+                "commandline": "powershell.exe ssh ubuntu@hk.dounait.cn"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             }
         ]
     },

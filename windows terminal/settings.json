@@ -20,7 +20,7 @@
         [
             {
                 "acrylicOpacity" : 0.5,
-                "backgroundImage" : "%LOCALAPPDATA%/terminal/background.png",
+                "backgroundImage" : "%USERPROFILE%/.moe/terminal/background.png",
                 "backgroundImageOpacity" : 0.2,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
@@ -33,7 +33,7 @@
                 "historySize" : 9001,
                 "padding" : "7, 0, 0, 10",
                 "snapOnInput" : true,
-                "icon": "%LOCALAPPDATA%/terminal/powershell.png",
+                "icon": "%USERPROFILE%/.moe/terminal/powershell.png",
 
                 "guid": "{88888888-8888-8888-8888-888888888888}",
                 "name": "Windows PowerShell",
@@ -42,7 +42,7 @@
             },
             {
                 "acrylicOpacity" : 0.5,
-                "backgroundImage" : "%LOCALAPPDATA%/terminal/background.png",
+                "backgroundImage" : "%USERPROFILE%/.moe/terminal/background.png",
                 "backgroundImageOpacity" : 0.2,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
@@ -71,28 +71,28 @@
                 "guid": "{00000000-0000-0000-0000-000000000000}",
                 "hidden": false,
                 "name": "OpenWrt",
-                "icon": "%LOCALAPPDATA%/terminal/openwrt.png",
+                "icon": "%USERPROFILE%/.moe/terminal/openwrt.png",
                 "commandline": "powershell.exe ssh root@10.10.10.01"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000000001}",
                 "hidden": false,
                 "name": "RespberryPi 4B",
-                "icon": "%LOCALAPPDATA%/terminal/raspberry.ico",
+                "icon": "%USERPROFILE%/.moe/terminal/raspberry.ico",
                 "commandline": "powershell.exe ssh pi@10.10.10.10"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000000002}",
                 "hidden": false,
                 "name": "RespberryPi Zero W",
-                "icon": "%LOCALAPPDATA%/terminal/raspberry.ico",
+                "icon": "%USERPROFILE%/.moe/terminal/raspberry.ico",
                 "commandline": "powershell.exe ssh pi@10.10.10.12"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000000003}",
                 "hidden": false,
                 "name": "hk.dounait",
-                "icon": "%LOCALAPPDATA%/terminal/hk.png",
+                "icon": "%USERPROFILE%/.moe/terminal/hk.png",
                 "commandline": "powershell.exe ssh ubuntu@hk.dounait.cn"
             },
             {

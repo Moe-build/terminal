@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 base_dir=$(cd "$(dirname "$0")";pwd)
 
 # installed zsh...

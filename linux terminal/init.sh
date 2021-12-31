@@ -13,6 +13,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 echo " chang oh-my-zsh conf"
 sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"ys\"/' ~/.zshrc
 sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
+
+cp $(pwd)/config/tmux.conf ~/.tmux.conf
+echo "alias tmux='TERM=xterm-256color tmux'" ~/.zshrc
+
 chsh -s /bin/zsh
 exec -l /bin/zsh
 

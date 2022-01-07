@@ -3,7 +3,6 @@ IF(Test-Path "$env:USERPROFILE\.moe\terminal")
 {
     Remove-Item -force -recurse "$env:USERPROFILE\.moe\terminal"
 }
-mkdir "$env:USERPROFILE\.moe\terminal"
 Copy-Item -Path .\img\* -Destination $env:USERPROFILE\.moe\terminal  -Recurse
 
 # replace windows terminal setting 
